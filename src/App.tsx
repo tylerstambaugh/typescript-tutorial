@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 
-let name: string;
-let age: number;
-
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      Hello world
+      <span className='heading'>Taskify</span>
+      <InputField />
     </div>
   );
 }
