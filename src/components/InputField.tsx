@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import "./styles.css";
 
 const InputField = () => {
-  return (
-    <div>inputField</div>
-  )
-}
+  return  (
+  <form className='input'>
+    <input type="input" placeholder='Enter a task' className='input_box' /> 
+    <button className='input_submit' type='submit'>
+        Add
+    </button>
+  </form>
+  );
+};
 
-export default InputField
+export default InputField;
