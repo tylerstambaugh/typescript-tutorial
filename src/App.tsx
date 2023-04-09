@@ -6,10 +6,11 @@ const App: React.FC = () => {
 
 const [todo, setTodo] = useState<string>("");
 
+
   return (
     <div className="App">
       <span className='heading'>Taskify</span>
-      <InputField todo={todo} setTodo{setTodo} />
+      <InputField todo={todo} setTodo={setTodo} />
     </div>
   );
 };
